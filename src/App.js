@@ -15,6 +15,10 @@ class App extends Component {
             <p className = "Links_Text"> ABOUT </p>
             <p className = "Links_Text"> TEAM </p>
             <p className = "Links_Text"> CONTACT </p>
+            <div className = "Hamburger">
+                <p className = "Menu_Text"> Menu </p>
+                <img src="http://thsna.org/online/mobile/images/white-menu-icon.png"height="42" width="42"  />
+            </div>
           </div>
         </div>
         <div className = "Header">

@@ -60,6 +60,24 @@
   letter-spacing: 1px;
 }
 
+.Hamburger {
+  display: none;
+	flex-direction: row;
+	justify-content: center;
+  align-items: center;
+  
+  background-color: rgb(254, 207, 47);
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+}
+
+.Menu_Text {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
 .Header {
   display: flex;
 	flex-direction: column;
@@ -118,3 +136,28 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 600px) {
+  .Links_Text {
+    display: none;
+  }
+  .Hamburger {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 45px;
+  }
+}
+
+/* @media only screen and (max-width: 400px) {
+  .Hamburger {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 45px;
+  }
+} */
