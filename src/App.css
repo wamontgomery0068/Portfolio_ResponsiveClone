@@ -1,32 +1,120 @@
 .App {
-  text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+
+  height: 578px;
+  width: 1229px;
+  background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1229px 725px;
+  /* background: gray; */
+  /* border: 4px solid black; */
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav {
   display: flex;
-  flex-direction: column;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+  
+  height: 80px;
+  width: auto;
+  /* border: 4px solid white; */
+}
+
+.Logo_Nav {
+  height: 50px;
+  width: 200px;
+  margin-bottom: 1.5%;
+  /* border: 4px solid white; */
+}
+
+.Logo_Text {
+  color: rgb(254, 207, 47);
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.Links_Nav {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  height: 50px;
+  width: 475px;
+  margin-top: 3%;
+  /* border: 4px solid white; */
+}
+
+.Links_Text {
   color: white;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14.4px;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
-.App-link {
-  color: #61dafb;
+.Header {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  height: 480px;
+  width: auto;
+  /* border: 4px solid white; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Top_Header {
+  height: 100px;
+  width: 500px;
+  /* border: 4px solid white; */
+}
+
+.Top_Text {
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'PT Serif', serif;
+}
+
+.Middle_Header {
+  height: 80px;
+  width: 800px;
+  /* margin-top: 1%; */
+  /* border: 4px solid white; */
+}
+
+.Middle_Text {
+  color: white;
+  display: block;
+  font-size: 65px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  /* line-height: 10px;   */
+  margin-top: 0;
+}
+
+.Bottom_Header {
+  height: 58px;
+  width: 180px;
+  margin-bottom: 4%;
+  background-color: rgb(254, 207, 47);
+  border-radius: 10px;
+  /* border: 4px solid white; */
+}
+
+.Bottom_Text {
+  color: white;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
